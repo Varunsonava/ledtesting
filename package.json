@@ -1,5 +1,5 @@
 {
-  "name": "smartled",
+  "name": "ledtesting",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Varunsonava/SmartLED.git"
+    "url": "git+https://github.com/Varunsonava/ledtesting.git"
   },
   "author": "",
   "license": "ISC",
@@ -30,7 +30,7 @@
     "supertest": "^3.0.0"
   },
   "bugs": {
-    "url": "https://github.com/Varunsonava/SmartLED/issues"
+    "url": "https://github.com/Varunsonava/ledtesting/issues"
   },
-  "homepage": "https://github.com/Varunsonava/SmartLED#readme"
+  "homepage": "https://github.com/Varunsonava/ledtesting#readme"
 }
