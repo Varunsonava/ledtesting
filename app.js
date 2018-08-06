@@ -343,7 +343,7 @@ class FacebookBot {
     }
 
 
-    handleApiAiAction(sender, action, responseMessages, contexts, parameters) {
+    /*handleApiAiAction(sender, action, responseMessages, contexts, parameters) {
         switch (action) {
             case "personal-details-for-job-application":
                 let userContact = contexts[0].parameters['user-contact'];
@@ -360,7 +360,7 @@ class FacebookBot {
                 console.log("=======RESPONSE TEXT======", responseMessages);
                 this.doRichContentResponse(sender, responseMessages);
         }
-    }
+    }*/
 
     connectToMQTT(msg) {
         //var url = 'mqtt://m14.cloudmqtt.com:16129';
