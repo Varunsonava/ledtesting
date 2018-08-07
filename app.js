@@ -403,11 +403,8 @@ class FacebookBot {
         apiaiRequest.on('response', (response) => {
             let responseText = response.result.fulfillment.speech;
             if (responseText.indexOf("turned on") != -1) {
+                console.log("if condition statified");
                 this.connectToMQTT("on")
-            }
-            else
-            {
-                console.log("did not satisfy the 'connectToMqtt' if condition");
             }
             if (responseText.indexOf("turned off") != -1) {
                 this.connectToMQTT("off")
