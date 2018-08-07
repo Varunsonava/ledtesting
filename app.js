@@ -405,6 +405,10 @@ class FacebookBot {
             if (responseText.indexOf("turned on") != -1) {
                 this.connectToMQTT("on")
             }
+            else
+            {
+                console.log("did not satisfy the 'connectToMqtt' if condition");
+            }
             if (responseText.indexOf("turned off") != -1) {
                 this.connectToMQTT("off")
             }
