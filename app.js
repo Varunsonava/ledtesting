@@ -370,9 +370,7 @@ class FacebookBot {
         var options = {
             clientId: 'mqttjs_' + Math.random().toString(16).substr(2, 8),
             username: 'user1',
-            //username: 'xswfiggi', 
             password: 'password'
-            //password: '8JBNzvH5fmG0'
         };
 
         var client;
